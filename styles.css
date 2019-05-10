@@ -1,0 +1,51 @@
+#student {
+  padding: 50px;
+}
+
+#dp {
+  border: solid black thin;
+  border-radius: 50%;
+}
+
+.displayDiv {
+  justify-content: right;
+  text-align: center;
+  position: absolute;
+
+  top: 15%;
+  bottom: 15%;
+  left: 10%;
+  right: 10%;
+  background: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 5%;
+  box-shadow: 5px 13px rgb(115, 103, 103);
+}
+
+#name {
+  font: bold;
+}
+
+#name,
+#email,
+#company,
+#skill,
+#avg {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.label {
+  font: rgba(0, 0, 0, 0.047);
+}
+#inplab #inp {
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+}
+
+body {
+  background: rgb(135, 120, 120);
+}
