@@ -19,8 +19,11 @@
   background: white;
   overflow-y: auto;
   overflow-x: hidden;
-  border-radius: 5%;
+  border-radius: 1%;
   box-shadow: 5px 13px rgb(115, 103, 103);
+}
+.grades {
+  display: none;
 }
 
 #name {
@@ -38,7 +41,7 @@
 .label {
   font: rgba(0, 0, 0, 0.047);
 }
-#inplab #inp {
+#taginp #taginplab #inplab #inp {
   text-align: center;
   top: 0%;
   left: 0%;
@@ -47,5 +50,21 @@
 }
 
 body {
-  background: rgb(135, 120, 120);
+  background: rgb(138, 138, 138);
+}
+
+#student {
+  float: center;
+  text-align: center;
+}
+#dp {
+  float: left;
+  width: 100px;
+}
+
+.concat {
+  display: none;
+}
+.expand {
+  display: block;
 }
